@@ -1,0 +1,4 @@
+baseURL = 'https://608z.com/'
+languageCode = 'en-us'
+title = '608z.com'
+theme = 'ananke'
