@@ -2,3 +2,13 @@ baseURL = 'https://608z.com/'
 languageCode = 'en-us'
 title = '608z.com'
 theme = 'ananke'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Role With It'
+    pageRef = '/role-with-it'
+    weight = 20
