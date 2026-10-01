@@ -1,14 +1,17 @@
 baseURL = 'https://608z.com/'
 languageCode = 'en-us'
 title = '608z.com'
-theme = 'ananke'
+theme = 'hugo-theme-console'
 
-[menus]
-  [[menus.main]]
-    name = 'Home'
-    pageRef = '/'
-    weight = 10
-  [[menus.main]]
-    name = 'Role With It'
-    pageRef = '/role-with-it'
-    weight = 20
+[params]
+  # Shorten the title to two characters on mobile
+  titleCutting = true
+  animateStyle = 'animated zoomIn fast'
+
+  [[params.navlinks]]
+    name = 'home/'
+    url = '/'
+
+  [[params.navlinks]]
+    name = 'role-with-it/'
+    url = 'role-with-it/'
